@@ -1000,7 +1000,8 @@ blockquote h6 {
     border-radius: .25rem;
     margin-bottom: 1.875rem;
     box-shadow: .125rem .1875rem .9375rem rgba(0, 0, 0, .15);
-    padding: 1.5625rem;
+    
+
 }
 
 /*-------------------------------------------
@@ -1446,6 +1447,7 @@ body.has-loading-screen.loading-done:after {
     display: flex;
     position: relative;
 }
+
 
 #ts-hero .ts-background-image {
     background-position: top center;
@@ -2080,7 +2082,43 @@ figure.icon {
 
 }
 
+.service01 {
+  position: relative;
+}
+.service01:hover {
+  opacity:0.7;
+}
 
+
+.service01 .photography {
+  position: absolute;
+  top: 105%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: #000;
+  font-size: 13px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.service01 .photography:hover {
+  color:#9e9e9e;
+}
+
+.back{
+  background-color: #000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ 
+}
 
 .vid-wrap{
   width: 100%;
@@ -2183,6 +2221,22 @@ figure.icon {
 {
   text-align: center;
 }
+
+#facebook:hover{
+  color: #2a38b8;
+}
+
+#instagram:hover{
+  color: purple;
+}
+
+#envelope:hover{
+  color:yellow;
+}
+
+
+
+
 
 @media (min-width: 36rem) and (max-width: 47.9375rem) {
     html {

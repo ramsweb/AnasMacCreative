@@ -383,16 +383,7 @@ $(document).ready(function($) {
         }
     });
 
-    $(window).scroll(function() {
-        var scrollPos = $(window).scrollTop();
-        var navOpacity = scrollPos / 500;
-
-        $('.navbar').css("opacity", navOpacity);
-
-        if ($('nav').css('opacity') < 1) {
-            $('#navbarNavAltMarkup').css('opacity', 1)
-        };
-    });
+    
 
 });
 
